@@ -1,0 +1,25 @@
+type: object
+description: Wind
+properties:
+  id:
+    type: integer
+    description: Weather condition id
+    example: 803
+  main:
+    type: string
+    description: 'Group of weather parameters (Rain, Snow, Extreme etc.)'
+    example: clouds
+  description:
+    type: string
+    description: Weather condition within the group
+    example: broken clouds
+  icon:
+    type: string
+    description: Weather icon id
+    example: 04n
+x-examples:
+  example-1:
+    id: 803
+    main: clouds
+    description: broken clouds
+    icon: 04n
