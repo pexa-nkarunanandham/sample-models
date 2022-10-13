@@ -1,0 +1,35 @@
+type: object
+description: main
+properties:
+  temp:
+    type: number
+    description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+    example: 293.25
+  feels_like:
+    type: number
+    description: What the weather feels like despite the actual numbers
+    example: 41.16
+  temp_min:
+    type: number
+    description: 'Minimum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+    example: 289.82
+  temp_max:
+    type: number
+    description: 'Maximum temperature at the moment. This is deviation from current temp that is possible for large cities and megalopolises geographically expanded (use these parameter optionally). Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+    example: 295.37
+  pressure:
+    type: integer
+    description: 'Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa'
+    example: 1019
+  humidity:
+    type: integer
+    description: 'Humidity, %'
+    example: 83
+x-examples:
+  example-1:
+    temp: 293.25
+    feels_like: 41.16
+    temp_min: 289.82
+    temp_max: 295.37
+    pressure: 1019
+    humidity: 83
