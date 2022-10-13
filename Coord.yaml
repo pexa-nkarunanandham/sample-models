@@ -1,0 +1,13 @@
+type: object
+properties:
+  lon:
+    type: number
+  lat:
+    type: number
+x-examples:
+  example-1:
+    lon: 145.77
+    lat: -16.92
+examples:
+  - lon: 145.77
+    lat: -16.92
