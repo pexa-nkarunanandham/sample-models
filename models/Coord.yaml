@@ -8,6 +8,3 @@ x-examples:
   example-1:
     lon: 190.45
     lat: -16.92
-examples:
-  - lon: 190.45
-    lat: -16.92
